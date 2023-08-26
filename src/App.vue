@@ -1,9 +1,10 @@
 <script setup>
+  import BaseHeader from './components/base-header.vue';
 </script>
 
 <template>
   <div>
-    <h1 class="text-red-500">Hello vue</h1>
+    <base-header />
   </div>
 </template>
 
