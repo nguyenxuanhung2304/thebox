@@ -41,6 +41,3 @@
     isVisibleHamburgerMenu.value = !isVisibleHamburgerMenu.value;
   }
 </script>
-
-<style scoped>
-</style>
