@@ -2,7 +2,7 @@
   <header class="px-[4.813vw] py-[1.875vw]">
     <div class="flex relative">
       <div class="flex items-center flex-1 cursor-pointer">
-        <img class="mr-2" src="../assets/logo.png" alt="Logo">
+        <img class="mr-2" src="@/assets/logo.png" alt="Logo">
         <h1 class="text-[#2947A9] font-bold text-[2.2rem]">TheBox</h1>
       </div>
       <div class="hidden md:flex md:items-center md:flex-1">
