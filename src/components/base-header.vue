@@ -20,7 +20,7 @@
         <div class="absolute top-[18px] w-16 h-1 rounded-lg bg-black transition ease-in-out duration-250" :class="{'-rotate-135 !top-[9px]': isVisibleHamburgerMenu}"></div>
       </div>
     </div>
-    <div class="md:!opacity-0 relative bg-[#3559C7] w-full -top-[5vh] opacity-0 h-[31.250vw] transition-all mt-5 ease-in-out duration-250" :class="{'!opacity-100 !top-0': isVisibleHamburgerMenu}">
+    <div v-if="isVisibleHamburgerMenu" class="md:hidden relative bg-[#3559C7] w-full -top-[5vh] h-[31.250vw] transition-all mt-5 ease-in-out duration-250" :class="{'!top-0': isVisibleHamburgerMenu}">
       <ul class="flex flex-col items-start justify-around flex-wrap w-full h-full px-[2vw] text-sm text-white">
         <li class="w-full cursor-pointer hover:underline border-white border-b">Home</li>
         <li class="w-full cursor-pointer hover:underline border-white border-b">About Us</li>
