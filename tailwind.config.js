@@ -10,6 +10,9 @@ export default {
         '135': '135deg',
       }
     },
+    backgroundImage: {
+      'kitchen': "url('@/assets/kitchen.png')",
+    },
   },
   plugins: [],
 }
