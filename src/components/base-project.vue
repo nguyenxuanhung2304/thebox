@@ -20,7 +20,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-[#F6F8F7] min-h-[500px] w-full">
+    <div class=" min-h-[500px] w-full">
       <div class="mx-[10%] py-[10%] flex justify-between">
         <div class="flex flex-col flex-3 gap-4">
           <h3 class="font-bold text-xl md:text-2xl lg:text-3xl xl:text-4xl">Projects</h3>

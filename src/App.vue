@@ -3,6 +3,7 @@
   import BaseHero from '@/components/base-hero.vue';
   import BaseReputation from '@/components/base-reputation.vue';
   import BaseProject from '@/components/base-project.vue';
+  import BaseContact from '@/components/base-contact.vue';
 </script>
 
 <template>
@@ -11,5 +12,6 @@
     <base-hero />
     <base-reputation />
     <base-project />
+    <base-contact />
   </div>
 </template>
