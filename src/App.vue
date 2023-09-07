@@ -4,6 +4,7 @@
   import BaseReputation from '@/components/base-reputation.vue';
   import BaseProject from '@/components/base-project.vue';
   import BaseContact from '@/components/base-contact.vue';
+  import BaseFooter from '@/components/base-footer.vue';
 </script>
 
 <template>
@@ -13,5 +14,6 @@
     <base-reputation />
     <base-project />
     <base-contact />
+    <base-footer />
   </div>
 </template>
